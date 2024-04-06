@@ -1,0 +1,32 @@
+{
+  "menuEntries": [
+    {
+      "name": "About",
+      "url": "about"
+    },
+    {
+      "name": "rules",
+      "url": "rules"
+    },
+    {
+      "name": "security",
+      "url": "security"
+    },
+    {
+      "name": "apply",
+      "url": "apply"
+    },
+    {
+      "name": "faq",
+      "url": "faq"
+    },
+    {
+      "name": "reviews",
+      "url": "reviews"
+    },
+    {
+      "name": "contacts",
+      "url": "contacts"
+    }
+  ]
+}

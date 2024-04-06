@@ -1,0 +1,27 @@
+{
+  "pageTitle": "FREQUENTLY ASKED QUESTIONS",
+  "content": [
+    {
+      "categoryName": "Application",
+      "qna": [
+        {
+          "question": "WHERE CAN I APPLY?",
+          "answer": "At this link: https://forms.gle/gJnVKrPjB67DNGNu8"
+        },
+        {
+          "question": "WHO CAN ATTEND THE SODA PARTY?",
+          "answer": "The SODA Party is open to people of any background, any gender, and any sexual orientation.\n\nSingles, couples, or groups.\n\nWe only accept adults with no upper age limit.\n\nThe average age of participants is around 28 years."
+        }
+      ]
+    },
+    {
+      "categoryName": "Ticket Purchase",
+      "qna": [
+        {
+          "question": "WHEN AND WHERE IS THE PARTY DATE ANNOUNCED?",
+          "answer": "About 1 month in advance via email (sign up for the newsletter!) and on the IG page [@soda.clubbing](https://www.instagram.com/soda.clubbing).\n\nThe dates are announced one at a time, we do not provide a SODA schedule in advance."
+        }
+      ]
+    }
+  ]
+}

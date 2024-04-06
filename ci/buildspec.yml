@@ -1,0 +1,43 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo "=== Ready to build ==="
+      # Loop through each folder and fetch both 'en.json' and 'it.json'
+      - for folder in apply-page rules-page header about-page home-page security-page faq-page review-page party-admission-page; do \
+        curl -H "Accept: application/vnd.github.v3.raw" -o src/translations/$folder/it.json https://api.github.com/repositories/841652777/contents/text/$folder/it.json; \
+        curl -H "Accept: application/vnd.github.v3.raw" -o src/translations/$folder/en.json https://api.github.com/repositories/841652777/contents/text/$folder/en.json; \
+        done
+
+  build:
+    commands:
+      - npm install -g yarn
+      - yarn install
+      - yarn build
+
+  post_build:
+    commands:
+      - echo "=== Build complete ==="
+
+cache:
+  paths:
+    - 'node_modules'
+
+artifacts:
+  files:
+    # Next build output and public assets
+    - '.next/**/*'
+    - 'public/**/*'
+    # App source and config for deployments that need them
+    - 'app/**/*'
+    - 'src/**/*'
+    - 'package.json'
+    - 'yarn.lock'
+    - 'next.config.mjs'
+    - 'tsconfig.json'
+    - 'postcss.config.js'
+    - 'tailwind.config.js'
+    - '.nvmrc'
+    - '.yarnrc'
+  base-directory: './'
