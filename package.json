@@ -4,29 +4,19 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "sync-images": "node pre-build-scripts/sync-remote-images.js",
-    "fetch-translations": "node pre-build-scripts/fetch-translations.js",
-    "fetch-images": "node pre-build-scripts/fetch-reviews-images.js",
-    "fetch-password": "node pre-build-scripts/fetch-password.js",
-    "prebuild": "yarn sync-images && yarn fetch-translations && yarn fetch-images && yarn fetch-password",
+    "prebuild": "echo prebuild skipped",
     "dev": "next dev",
-    "build": "yarn prebuild && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "next": "latest",
-    "@shopify/hydrogen-react": "^2024.4.0",
-    "crypto-js": "^4.2.0",
-    "i18next": "^23.14.0",
-    "node-fetch": "^3.3.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-i18next": "^15.0.1"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "eslint-config-next": "latest",
-    "@types/crypto-js": "^4.2.2",
     "@types/node": "^22.5.0",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
