@@ -1,5 +1,5 @@
 "use client";
-import Title from '../../src/components/title';
+import { Title } from '../../src/components/title';
 import { Footer } from '../components/Footer';
 
 export default function ContactsPage() {

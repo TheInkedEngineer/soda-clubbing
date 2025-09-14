@@ -2,6 +2,7 @@ import './globals.css';
 import { ReactNode, Suspense } from 'react';
 import { Header } from './components/Header';
 import { LanguageProvider } from './context/LanguageContext';
+import { spacing } from '@/lib/design-system';
 
 export const metadata = {
   title: 'Soda',
@@ -15,7 +16,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <Suspense fallback={null}>
           <LanguageProvider>
             <Header />
-            <div className="max-w-screen-lg mx-auto">{children}</div>
+            <div className={spacing.container}>{children}</div>
           </LanguageProvider>
         </Suspense>
       </body>

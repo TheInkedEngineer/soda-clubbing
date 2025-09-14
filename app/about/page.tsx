@@ -1,5 +1,5 @@
 "use client";
-import Title from '../../src/components/title';
+import { Title } from '../../src/components/title';
 import { Footer } from '../components/Footer';
 import { FormattedText } from '../../src/components/formattedText';
 import { useLanguage } from '../context/LanguageContext';

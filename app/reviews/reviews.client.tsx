@@ -1,5 +1,5 @@
 "use client";
-import Title from '../../src/components/title';
+import { Title } from '../../src/components/title';
 import { Footer } from '../components/Footer';
 import { useLanguage } from '../context/LanguageContext';
 import contentIt from '../../src/translations/review-page/it.json';

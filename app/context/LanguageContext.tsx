@@ -20,18 +20,17 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
-  const [language, setLanguageState] = useState<string>(() => {
-    if (typeof window === 'undefined') return 'it';
-    return localStorage.getItem('soda-language') || 'it';
-  });
+  // Initialize deterministically to avoid hydration mismatch.
+  // Actual value is loaded after mount from URL/localStorage.
+  const [language, setLanguageState] = useState<string>('it');
 
-  // Initialize from URL on mount
+  // Initialize from URL or localStorage on mount
   useEffect(() => {
-    const lang = searchParams?.get('lang');
-    if (lang) {
-      setLanguageState(lang);
-      if (typeof window !== 'undefined') localStorage.setItem('soda-language', lang);
-    }
+    const urlLang = searchParams?.get('lang');
+    const storedLang = typeof window !== 'undefined' ? localStorage.getItem('soda-language') : null;
+    const initial = (urlLang || storedLang) === 'en' ? 'en' : 'it';
+    setLanguageState(initial);
+    if (typeof window !== 'undefined') localStorage.setItem('soda-language', initial);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -49,4 +48,3 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
 
   return <LanguageContext.Provider value={value}>{children}</LanguageContext.Provider>;
 };
-
