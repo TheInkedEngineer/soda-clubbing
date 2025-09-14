@@ -1,16 +1,16 @@
 "use client";
-import { Title } from '../../src/components/title';
+import { Title } from '@/components/title';
 import { Footer } from '../components/Footer';
 import { useLanguage } from '../context/LanguageContext';
-import contentIt from '../../src/translations/review-page/it.json';
-import contentEn from '../../src/translations/review-page/en.json';
+import contentIt from '@/translations/review-page/it.json';
+import contentEn from '@/translations/review-page/en.json';
 import Image from 'next/image';
 
 export default function ReviewsClient({ images }: { images: string[] }) {
   const { language } = useLanguage();
   const content = language === 'en' ? (contentEn as any) : (contentIt as any);
   return (
-    <>
+    <div>
       <Title text={content.pageTitle} />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {images.map((image, index) => (
@@ -20,6 +20,6 @@ export default function ReviewsClient({ images }: { images: string[] }) {
         ))}
       </div>
       <Footer />
-    </>
+    </div>
   );
 }

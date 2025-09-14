@@ -1,9 +1,9 @@
 "use client";
-import { Title } from '../../src/components/title';
+import { Title } from '@/components/title';
 import { Footer } from '../components/Footer';
-import { FormattedText } from '../../src/components/formattedText';
-import contentIt from '../../src/translations/security-page/it.json';
-import contentEn from '../../src/translations/security-page/en.json';
+import { FormattedText } from '@/components/formattedText';
+import contentIt from '@/translations/security-page/it.json';
+import contentEn from '@/translations/security-page/en.json';
 import { useLanguage } from '../context/LanguageContext';
 import Image from 'next/image';
 

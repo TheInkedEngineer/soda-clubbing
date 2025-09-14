@@ -1,11 +1,11 @@
 "use client";
 import { useMemo } from 'react';
 import { useLanguage } from './context/LanguageContext';
-import homeyPageContentIt from '../src/translations/home-page/it.json';
-import homePageContentEn from '../src/translations/home-page/en.json';
+import homeyPageContentIt from '@/translations/home-page/it.json';
+import homePageContentEn from '@/translations/home-page/en.json';
 import Image from 'next/image';
-import futuraLogo from '../src/assets/logo-futura-bianco.png';
-import wovoLogo from '../src/assets/logo-wovo.png';
+import futuraLogo from '@/assets/logo-futura-bianco.png';
+import wovoLogo from '@/assets/logo-wovo.png';
 
 interface Props {
   partyText: string;

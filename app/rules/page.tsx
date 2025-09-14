@@ -1,11 +1,11 @@
 "use client";
 import { useState } from 'react';
-import { Title } from '../../src/components/title';
+import { Title } from '@/components/title';
 import { Footer } from '../components/Footer';
 import { useLanguage } from '../context/LanguageContext';
-import contentIt from '../../src/translations/rules-page/it.json';
-import contentEn from '../../src/translations/rules-page/en.json';
-import { Accordion } from '../../src/components/accordion';
+import contentIt from '@/translations/rules-page/it.json';
+import contentEn from '@/translations/rules-page/en.json';
+import { Accordion } from '@/components/accordion';
 
 export default function RulesPage() {
   const { language } = useLanguage();

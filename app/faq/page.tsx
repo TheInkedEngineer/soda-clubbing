@@ -1,11 +1,11 @@
 "use client";
 import { useState } from 'react';
-import { Title } from '../../src/components/title';
+import { Title } from '@/components/title';
 import { Footer } from '../components/Footer';
 import { useLanguage } from '../context/LanguageContext';
-import contentIt from '../../src/translations/faq-page/it.json';
-import contentEn from '../../src/translations/faq-page/en.json';
-import { Accordion } from '../../src/components/accordion';
+import contentIt from '@/translations/faq-page/it.json';
+import contentEn from '@/translations/faq-page/en.json';
+import { Accordion } from '@/components/accordion';
 import { spacing } from '@/lib/design-system';
 
 export default function FAQPage() {
@@ -24,7 +24,7 @@ export default function FAQPage() {
   );
 
   return (
-    <div className={spacing.container}>
+    <div>
       <div className="flex flex-col md:flex-row justify-between items-center">
         <Title text={content.pageTitle} />
       </div>
@@ -36,10 +36,10 @@ export default function FAQPage() {
             key={`${c.name}-${idx}`}
             type="button"
             onClick={() => toggleCategory(c.name)}
-            className={`title text-base px-4 py-2 border-4 border-black rounded-none transition-colors duration-150 ${
+            className={`title text-base px-4 py-2 border-4 border-black dark:border-white rounded-none transition-colors duration-150 ${
               isSelected(c.name)
-                ? 'bg-black !text-white'
-                : 'bg-transparent !text-black hover:bg-black hover:!text-white'
+                ? 'bg-black !text-white dark:bg-white dark:!text-black'
+                : 'bg-transparent hover:bg-black hover:!text-white dark:hover:bg-white dark:hover:!text-black'
             }`}
           >
             {c.name}

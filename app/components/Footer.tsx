@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import logoFuturaLight from '../../src/assets/logo-futura-bianco.png';
-import logoFuturaDark from '../../src/assets/logo-futura-nero.png';
+import logoFuturaLight from '@/assets/logo-futura-bianco.png';
+import logoFuturaDark from '@/assets/logo-futura-nero.png';
 
 export const Footer = () => {
   const [logo, setLogo] = useState(logoFuturaLight as unknown as string);

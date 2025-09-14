@@ -3,10 +3,10 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 import Image from 'next/image';
-import headerContentIt from '../../src/translations/header/it.json';
-import headerContentEn from '../../src/translations/header/en.json';
+import headerContentIt from '@/translations/header/it.json';
+import headerContentEn from '@/translations/header/en.json';
 import { useLanguage } from '../context/LanguageContext';
-import logo from '../../src/assets/logo-soda.png';
+import logo from '@/assets/logo-soda.png';
 
 interface MenuEntry {
   name: string;

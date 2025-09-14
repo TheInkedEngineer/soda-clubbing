@@ -1,10 +1,10 @@
 "use client";
-import { Title } from '../../src/components/title';
+import { Title } from '@/components/title';
 import { Footer } from '../components/Footer';
-import { FormattedText } from '../../src/components/formattedText';
+import { FormattedText } from '@/components/formattedText';
 import { useLanguage } from '../context/LanguageContext';
-import contentIt from '../../src/translations/apply-page/it.json';
-import contentEn from '../../src/translations/apply-page/en.json';
+import contentIt from '@/translations/apply-page/it.json';
+import contentEn from '@/translations/apply-page/en.json';
 
 export default function ApplyPage() {
   const { language } = useLanguage();

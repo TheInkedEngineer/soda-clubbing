@@ -26,7 +26,6 @@ artifacts:
     - 'public/**/*'
     # App source and config for deployments that need them
     - 'app/**/*'
-    - 'src/**/*'
     - 'package.json'
     - 'yarn.lock'
     - 'next.config.mjs'
