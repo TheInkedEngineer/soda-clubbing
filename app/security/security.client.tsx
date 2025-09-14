@@ -14,7 +14,7 @@ export default function SecurityClient() {
     <div>
       <Title text={content.pageTitle} />
       <div className="my-6">
-        <Image src="/remote-images/sicurezza/team.jpg" alt="Team" width={1600} height={1067} className="w-full h-auto rounded" />
+        <Image src="/remote-images/sicurezza/team.png" alt="Team" width={1600} height={1067} className="w-full h-auto rounded" />
       </div>
       <FormattedText text={content.pageContent} />
       <Footer />

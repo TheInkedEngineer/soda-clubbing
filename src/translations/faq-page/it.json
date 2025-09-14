@@ -6,11 +6,43 @@
       "qna": [
         {
           "question": "DOVE POSSO FARE APPLICATION?",
-          "answer": "A questo link: https://forms.gle/gJnVKrPjB67DNGNu8"
+          "answer": "Devi compilare [questo form](https://forms.gle/gJnVKrPjB67DNGNu8)"
         },
         {
           "question": "CHI PUÒ ANDARE AL SODA PARTY?",
-          "answer": "Il SODA Party si rivolge a persone di qualsiasi provenienza, qualsiasi genere e qualsiasi orientamento sessuale.\n\nSingle, coppie o gruppi.\n\nAccettiamo solo maggiorenni senza limiti massimi d’età.\n\nL’età media di chi partecipa è di 28 anni circa."
+          "answer": "Il SODA Party si rivolge a persone di qualsiasi provenienza, qualsiasi genere e\nqualsiasi orientamento sessuale.\n\nSingle, coppie o gruppi.\n\nAccettiamo solo maggiorenni senza limiti massimi d’età.\n\nL’età media di chi partecipa è di 28 anni circa."
+        },
+        {
+          "question": "POSSO FARE APPLICATION IN QUALSIASI MOMENTO?",
+          "answer": "Si, il form è sempre aperto ma si riceve risposta positiva o negativa solo dopo l'annuncio di una nuova data"
+        },
+        {
+          "question": "SE HO FATTO GIà APPLICATION PER UNA DATA DEVO RIFARLA PER LA PROSSIMA?",
+          "answer": "No, dal momento in cui la tua application verrà accettata riceverai sempre la comunicazione via email con la possibilitò di acquistare l'ingresso."
+        },
+        {
+          "question": "SE VOGLIO VENIRE CON IL/LA PARTNER DOBBIAMO FARE DUE APPLICATION SEPARATE O UNA INSIEME?",
+          "answer": "Nel caso tu voglia venire con un’altra persona dovrete fare entrambi l’application come singoli.\n\nPotrete poi scegliere se acquistare due ingressi singoli o un ingresso di \ncoppia (include 2 ingressi singoli + voucher spendibile da WOVO online o\n in negozio).\n\nNel caso dell'ingresso di coppia, chi lo acquista verrà ricontattat* da noi via mail per  specificare il nome e cognome dell’altr* partecipante.\n\nIMPORTANTE: è obbligatorio che entrambe le persone abbiano fatto application con esito POSITIVO per partecipare."
+        },
+        {
+          "question": "SE VOGLIO VENIRE CON UN GRUPPO DI AMIC* COME FACCIO?",
+          "answer": "Le application sono sempre e comunque da compilare singolarmente; non possiamo assicurarvi che tutt* quant* riescano ad acquistare l’ingresso."
+        },
+        {
+          "question": "NON HO RICEVUTO NESSUNA MAIL DI RISPOSTA ALL'APPLICATION, COME FACCIO?",
+          "answer": "Le possibilità potrebbero essere:\n\n-è possibile che la nostra mail sia finita nella tua cartella spam o promozioni, vai a controllare accuratamente!\n\n-assicurati di non aver fatto application dopo la chiusura della selezione per quella data del party. Le selezioni vengono chiuse circa 20 giorni prima del party, se non hai rispettato la deadline la tua application verrà presa in considerazione per la prossima data.\n\n-se hai cancellato l’iscrizione dalla newsletter di WOVO non riceverai nessuna comunicazione. In questo caso ri-iscriviti alla newsletter a questo link e scrivi a info@soda-party.com per assicurarti di essere ri-entrato nella mailing list di SODA\n\nSe nessuna delle precedenti ipotesi è la tua, scrivi a info@soda-party.com"
+        },
+        {
+          "question": "IN BASE A COSA SI RISULTA INDONE* O MENO?",
+          "answer": "La selezione viene fatta in base alla coerenza delle risposte accompagnate da una foto del volto ben visibile.\n\nAccettiamo solo risposte chiare ed esaustive che siano in linea con la filosofia del party."
+        },
+        {
+          "question": "SE NON HO SUPERATO L'APPLICATION POSSO RITENTARE?",
+          "answer": "No, le application negative non possono diventare positive.\n\nLe application con esito positivo possono diventare negative in caso di comportamento scorretto durante il party."
+        },
+        {
+          "question": "CHE FOTO DEVO CARICARE NELL'APPLICATION?",
+          "answer": "Scegli un file (jpeg/pdf) di piccole dimensioni dove si vede chiaramente il tuo viso.\nNon devi essere bell* ma riconoscibile.\n\nChe tipo di foto?\n\n- fototessera\n\n-selfie in primo piano\n\n-foto figura intera dove il viso si vede chiaramente\n\nChe tipo di foto NON va bene?\n\n- foto artistiche/con filtri/maschere che nascondono o modificano il viso\n\n- foto degli addominali/sedere\n\n- foto dell’aperitivo in montagna insieme ad altre 10 persone"
         }
       ]
     },
@@ -19,12 +51,148 @@
       "qna": [
         {
           "question": "QUANDO E DOVE VIENE COMUNICATA LA DATA DEL PARTY?",
-          "answer": "Circa 1 mese prima con una mail (iscriviti alla newsletter!) e sulla pagina ig [@soda.clubbing](https://www.instagram.com/soda.clubbing).\n\nLe date vengono comunicate singolarmente di volta in volta, non forniamo una programmazione SODA visionabile in anteprima."
+          "answer": "Circa 1 mese prima con una mail sulla pagina ig @soda.clubbing.Le date vengono comunicate singolarmente di volta in volta, non forniamo una programmazione SODA visionabile in anteprima."
+        },
+        {
+          "question": "POSSO ACQUISTARE UN INGERSSO SODA IN NEGOZIO O DIRETTAMENTE AL LOCALE?",
+          "answer": "No, l’ingresso SODA si può acquistare solo online sul nostro sito dal momento del lancio fino ad esaurimento."
+        },
+        {
+          "question": "COSA INCLUDE L'INGRESSO SODA?",
+          "answer": "Acquistando un ingresso SODA avrai accesso a tutte le zone del party quindi alla dancefloor e alla playroom con guardaroba incluso.\n\nInoltre durante tutta la serata forniamo gratuitamente acqua, carta assorbente, spray igienizzanti, profilattici, caramelle e frutta fresca."
+        },
+        {
+          "question": "QUALI METODI DI PAGAMENTO SONO ACCETTATI?",
+          "answer": "I metodi di pagamento accettati sono: PayPal, Carte (Visa, Mastercard, Amex)."
+        },
+        {
+          "question": "POSSO ACQUISTARE L'INGRESSO SODA CON LA MIA MAIL PER UN'ALTRA PERSONA?",
+          "answer": "Si, ricordati però di specificare il nome, cognome ed e-mail dell’altr* partecipante al momento del checkout, nella casella “aggiungi una nota” nel carrello. Il partecipante dovra’ aver compilato l’application ed essere stat* accettat*."
+        },
+        {
+          "question": "SULLA MIA MAIL DI CONFERMA DELL'INGRESSO E' INDICATO UN GENERE CHE NON CORRISPONDE AL MIO, COSA FACCIO?",
+          "answer": "Il sito riceve moltissimo traffico durante il lancio del SODA Party: consigliamo al\nmomento del check-out di controllare sempre che l’ingresso selezionato sia quello corretto.\n\nLa selezione corretta del genere di ingresso singolo è a responsabilita’ dell’acquirente, purtroppo non possiamo garantire il cambio e l'ingresso al party."
+        },
+        {
+          "question": "SE HO UN INGRESSO COPPIA MA L'ALTRA PERSONA NON RIESCE A VENIRE ALLA FINE, IL MIO INGRESSO E' ANCORA VALIDO?",
+          "answer": "Si, puoi entrare singolarmente anche senza l’altra persona a patto che il tuo nome sia specificato correttamente e sia anche stat* accettat* al form"
+        },
+        {
+          "question": "SE NON POSSO PIU' VENIRE?",
+          "answer": "L’ingresso SODA è nominale, non rimborsabile e non cedibile ad un’altra persona."
+        },
+        {
+          "question": "POSSO ACQUISTARE UN INGRESSO COPPIA ANCHE SE NON SIAMO UNA COPPIA?",
+          "answer": "Non ti chiederemo informazioni sul rapporto che c’è tra te e l’ altra persona in quanto non sono informazioni rilevanti per l’accesso al party."
+        },
+        {
+          "question": "PERCHE' L'INGRESSO COPPIA COSTA DI PIÚ?",
+          "answer": "L'ingresso coppia comprende 2 ingressi singoli e un voucher spendibile da WOVO in store o online per l’acquisto di abbigliamento e accessori."
+        },
+        {
+          "question": "PERCHE' DEVO INDICARE IL MIO GENERE AL MOMENTO DELL'ACQUISTO?",
+          "answer": "Chiediamo di indicare il genere per creare un ambiente equo tra i partecipanti e mantenere le percentuali di uomini, donne e altr* bilanciato."
+        },
+        {
+          "question": "PERCHE' MI SONO STATI SCALATI I SOLDI MA NON HO RICEVUTO NESSUNA MAIL DI CONFERMA?",
+          "answer": "Ti chiediamo di pazientare un attimo, siete tant* e può volerci più di qualche minuto per ricevere la mail di conferma.\n\nControlla sempre la tua cartella Spam, puo’ succedere che l’email sia finita li.\n\nSe non ti arriva entro 12 ore scrivi a info@soda-party.com indicando il tuo nome e cognome, faremo un controllo ma potrebbe essere che il tuo acquisto non sia andato a buon fine."
+        },
+        {
+          "question": "PERCHE' DOPOL'ACQUISTO DELL'INGRESSO NON HO RICEVUTO NESSUN BIGLIETTO VIA MAIL O VIA POSTA?",
+          "answer": "Non riceverai un biglietto nè via mail né per posta, gli ingressi sono nominali. Per entrare ti basterà presentare un documento di identità con foto, se hai acquistato l'ingresso correttamente il tuo nome sarà nella lista nominale all'ingresso."
+        },
+        {
+          "question": "ESISTE UNA LISTA D'ATTESA PER CHI NON É RIUSCITO A PRENDERE L'INGRESSO?",
+          "answer": "Si, la lista d’attesa viene creata in base alla quantità di richieste ricevute dopo la vendita degli ingressi.\n\nPuoi iscriverti alla lista d’attesa al link che pubblicheremo sulle storie di @soda.clubbing e sul nostro canale Telegram ( https://t.me/sodaparty) qualche giorno dopo la vendita. La lista d’attesa e’ valida solo ed esclusivamente per quella data del party e non per le successive."
+        }
+      ]
+    },
+    {
+      "categoryName": "IL PRE-PARTY",
+      "qna": [
+        {
+          "question": "COME FUNZIONA IL PRE-PARTY?",
+          "answer": "E’ un momento di ritrovo con musica e birrette aperto a tutt*, sia per chi è in possesso dell’ingresso SODA sia per chi vuole solo passare a salutarci e non parteciperà al party.\n\nSi svolge da WOVO Store in via Savona 45, Milano, il pomeriggio stesso del party dalle 17.00 alle 20.30 circa.\n\nE’ totalmente gratuito, non c’e’ bisogno di registrarsi e non è richiesto nessun dress code. Puoi venire da sol* o con amici."
+        },
+        {
+          "question": "È POSSIBILE ACQUISTARE L'OUTFIT AL PRE-PARTY?",
+          "answer": "Certo! Durante il pre-party il nostro negozio e’ aperto e il team WOVO è a disposizione per farti provare i capi che preferisci (in base alla disponibilità).\n\nPer evitare di rimanere senza outfit ti consigliamo di:\n\n- Acquistare online sul nostro sito qualche giorno prima con l'opzione di ritiro in negozio così al pre-party dovrai solo ritirare il tuo ordine;\n\n- Portati da casa un piano B nel caso non avessimo più la tua taglia disponibile o non trovassi nulla che fa per te."
+        }
+      ]
+    },
+    {
+      "categoryName": "Ingresso al locale",
+      "qna": [
+        {
+          "question": "CHE DOCUMENTI DEVO PORTARE PER ACCEDERE AL PARTY?",
+          "answer": "E’ obbligatorio avere con sé i seguenti documenti (ovviamente non scaduti):\n\n- carta d’identità\n\n- tessera sanitaria\n\n- tessera ASX\n\n- email di conferma d’acquisto dell’ingresso SODA."
+        },
+        {
+          "question": "COME FUNZIONA LA TESSERA ASX?",
+          "answer": "La tessera ASX ha validità di 1 anno dall’attivazione. E’ obbligatoria per l’ingresso al party e ti permette di partecipare a tutti gli altri eventi affiliati ASX.\n\nVa per forza acquistata online sul nostro sito e poi la potete ritirare in store o direttamente al locale la sera stessa del party.\n\nSe devi rinnovarla perche’ e’ scaduta, il procedimento è lo stesso del primo acquisto. Potrai controllare la data di scadenza della tua tessera ASX presso WOVO Store o presso qualsiasi altro locale affiliato ASX.\n\nSe non hai un codice fiscale italiano puoi comunque acquistare la tessera.\n\nSe il tuo comportamento non fosse conforme alle regole, verrai espuls* dal party, ti verrà anche annullata la tessera e perderai il diritto a partecipare a tutti i party affiliati ASX.\n\nSe hai già acquistato una tessera ASX (non scaduta) in un altro locale, è valida e non devi riacquistarla da noi."
+        }
+      ]
+    },
+    {
+      "categoryName": "Il party",
+      "qna": [
+        {
+          "question": "DOV'È IL PARTY?",
+          "answer": "Il SODA Party si svolge sempre a Milano.\n\nIl luogo preciso e’ sempre indicato in una mail dopo l’acquisto dell’ingresso."
+        },
+        {
+          "question": "CHE TIPO DI LOCALE/AMBIENTE DEVO ASPETTARMI?",
+          "answer": "E’ una vera e propria serata in discoteca con live entertainment (Pole dancer, Shibari, Body painting, ecc...)\n\nLa musica è prevalentemente techno con dj set live: lo spazio si divide tra dancefloor e play room.\n\nE’ presente un bar che fornisce alcolici, bibite. Sono disponibili i servizi igienici. \n\nNel caso di persone con disabilità o persone a ridotta mobilità, o in qualsiasi altro caso di non autosufficienza, vi chiediamo di contattarci prima dell'acquisto dell'ingresso a info@soda-party.com"
+        },
+        {
+          "question": "QUANTO DURA IL PARTY?",
+          "answer": "Il party inizia alle ore 23.00 e termina alle ore 5:30."
+        },
+        {
+          "question": "POSSO ENTRARE QUANDO VOGLIO?",
+          "answer": "L’accesso è consentito dalle 23.00 all’1.30, dopo non sarà più possibile entrare."
+        },
+        {
+          "question": "POSSO TENERE CON ME IL CELLULARE?",
+          "answer": "Sì, all’ingresso ti verranno oscurate le fotocamere con degli sticker e potrai tenerlo con te per tutta la serata.\n\nVi chiediamo però di non utilizzarlo durante la serata all’interno del locale, nel caso vi fosse strettamente necessario mandare un messaggio o fare una chiamata potrete farlo nella zona fumatori fuori.\n\nSe verrai vist* fare video/foto dentro al locale ti verrà chiesto immediatamente di eliminare i file dal tuo dispositivo, verrai segnalat* allo staff e accompagnato all'uscita."
+        },
+        {
+          "question": "VIENE FATTA SELEZIONE ALL'INGRESSO?",
+          "answer": "La selezione principale per il SODA avviene tramite application/questionario.\n\nAll’ingresso non viene fatta selezione, ma ci riserviamo il diritto di non far entrare persone in evidente stato alterato o che, ovviamente, non hanno acquistato un ingresso. Durante il party ci riserviamo il diritto di allontanarti chi non rispetta le linee guida dell'outfit."
+        },
+        {
+          "question": "C'È UNA ZONA FUMATORI?",
+          "answer": "Si, c’è uno spazio esterno al locale per fumatori.E’ vietato fumare all’interno del locale."
+        },
+        {
+          "question": "C'È UN GUARDAROBA?",
+          "answer": "Sì, è possibile usufruire del servizio guardaroba che è incluso nel costo dell’ingresso.Consigliamo comunque di portare con sé meno cose possibili e uno zaino/borsa in modo da agevolare la fila e non creare lunghe attese."
+        },
+        {
+          "question": "CI SI PUÒ CAMBIARE ALL'INTERNO?",
+          "answer": "Si, è previsto uno spazio comune all’interno del locale per cambiarsi dopo l’ingresso.\n\nConsigliamo comunque di indossare già i vestiti del party se possibile, in modo da agevolare l’ingresso di tutt* nel locale."
+        },
+        {
+          "question": "È CONSENTITO TENERE CON SÉ UNA BORSA AL PARTY?",
+          "answer": "Sì, sono consentite borsette, marsupi, tracolle e tutto ciò che è di piccole dimensioni e poco ingombrante. Se hai necessità di portare uno zaino con un cambio puoi lasciarlo al guardaroba del locale."
+        },
+        {
+          "question": "POSSO PORTARE MANETTE/FRUSTE/CORDE/SEX TOYS?",
+          "answer": "Si, se sono accessori che completano un outfit (es. harness fatto di corda o manette come bracciale).\n\nPer quanto riguarda i sex toy, sono permessi solo con lo scopo di affermazione di genere, rispettando le generali normi di igiene e sicurezza."
+        },
+        {
+          "question": "COSA SUCCEDE SE MI RENDO CONTO DI ESSERE TROPPO VESTITO RISPETTO AGLI ALTRI PARTECIPANT*?",
+          "answer": "Puoi toglierti un capo che hai addosso; ti consigliamo di farlo prima che ti venga richiesto dallo staff."
+        },
+        {
+          "question": "È CONSENTITO VENIRE SCALZ* AL PARTY?",
+          "answer": "No, è vietato venire scalzi per questioni di sicurezza."
+        },
+        {
+          "question": "È CONSENTITO VENIRE MASCHERAT* AL PARTY?",
+          "answer": "Si, puoi mascherarti ma dovrai togliere la maschera per il riconoscimento all’ingresso e nel caso ti venga chiesto di farlo durante il party per ragioni di sicurezza."
         }
       ]
     }
   ]
 }
-
-
-

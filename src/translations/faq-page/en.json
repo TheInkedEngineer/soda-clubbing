@@ -6,11 +6,43 @@
       "qna": [
         {
           "question": "WHERE CAN I APPLY?",
-          "answer": "At this link: https://forms.gle/gJnVKrPjB67DNGNu8"
+          "answer": "Fill in [this form](https://forms.gle/gJnVKrPjB67DNGNu8)"
         },
         {
-          "question": "WHO CAN ATTEND THE SODA PARTY?",
-          "answer": "The SODA Party is open to people of any background, any gender, and any sexual orientation.\n\nSingles, couples, or groups.\n\nWe only accept adults with no upper age limit.\n\nThe average age of participants is around 28 years."
+          "question": "WHO CAN GO TO THE SODA PARTY?",
+          "answer": "The SODA Party is open to people of any background, any gender, and any sexual orientation.\n\nSingles, couples, or groups.\n\nWe only accept adults with no upper age limit.\n\nThe average age of participants is around 28."
+        },
+        {
+          "question": "CAN I APPLY AT ANY TIME?",
+          "answer": "Yes. The form is always open, but you will receive a positive or negative response only after a new date is announced."
+        },
+        {
+          "question": "IF I HAVE ALREADY APPLIED FOR A DATE, DO I HAVE TO APPLY AGAIN FOR THE NEXT ONE?",
+          "answer": "No. Once your application is accepted, you will always receive an email with the option to purchase admission for future dates."
+        },
+        {
+          "question": "IF I WANT TO COME WITH MY PARTNER, DO WE NEED TO MAKE TWO SEPARATE APPLICATIONS OR ONE TOGETHER?",
+          "answer": "If you want to come with another person, you will both have to apply as individuals. You can then choose whether to purchase two single tickets or a couple ticket (includes 2 single entries + voucher to be spent at WOVO online or in store). In the case of a couple's ticket, the person purchasing it will have to specify the name, surname and email of the other participant at the time of checkout, in the \"Add a note\" box in the cart. IMPORTANT: It is mandatory that both people have successfully applied to participate."
+        },
+        {
+          "question": "IF I WANT TO COME WITH A GROUP OF FRIENDS, HOW DO I DO IT?",
+          "answer": "Applications must always be filled out individually; we cannot guarantee that everyone will be able to purchase admission."
+        },
+        {
+          "question": "I DIDN'T RECEIVE ANY EMAIL RESPONSE TO THE APPLICATION, WHAT DO I DO?",
+          "answer": "Possible reasons include:\n\n- Our email may have ended up in your spam or promotions folder — please check carefully.\n\n- You may have applied after selections closed for that party date (selections close about 20 days before the event). If you missed the deadline, your application will be considered for the next date.\n\n- If you unsubscribed from the WOVO newsletter you won't receive communications. Re-subscribe on our website and email info@soda-party.com to ensure you’ve been re-added to the SODA mailing list.\n\nIf none of the above apply, write to info@soda-party.com."
+        },
+        {
+          "question": "WHAT DETERMINES WHETHER YOU ARE FIT OR NOT?",
+          "answer": "The selection is made based on the coherence of the answers accompanied by a clearly visible photo of the face. We only accept clear and comprehensive answers that are in line with the party's philosophy."
+        },
+        {
+          "question": "IF I FAILED THE APPLICATION, CAN I TRY AGAIN?",
+          "answer": "No, negative applications cannot turn positive. Successful applications may become negative in case of improper behavior during the party."
+        },
+        {
+          "question": "WHAT PHOTOS SHOULD I UPLOAD TO THE APPLICATION?",
+          "answer": "Choose a small file (jpeg/pdf) where your face is clearly visible. You don't have to be beautiful but recognizable. What kind of photos? - passport photo -close-up selfie -full-length photo where the face is clearly visible What kind of photos are NOT good? - artistic photos/with filters/masks that hide or modify the face - abs/butt pics - photo of the aperitif in the mountains with 10 other people"
         }
       ]
     },
@@ -18,8 +50,147 @@
       "categoryName": "Ticket Purchase",
       "qna": [
         {
-          "question": "WHEN AND WHERE IS THE PARTY DATE ANNOUNCED?",
-          "answer": "About 1 month in advance via email (sign up for the newsletter!) and on the IG page [@soda.clubbing](https://www.instagram.com/soda.clubbing).\n\nThe dates are announced one at a time, we do not provide a SODA schedule in advance."
+          "question": "WHEN AND WHERE IS THE PARTY DATE COMMUNICATED?",
+          "answer": "About 1 month before with an email (sign up for the newsletter!) and on the ig page @soda.clubbing. Dates are communicated individually from time to time, we do not provide a previewable SODA schedule."
+        },
+        {
+          "question": "CAN I BUY A SODA INPUT IN A STORE OR DIRECTLY AT THE VENUE?",
+          "answer": "No, SODA tickets can only be purchased online on our website from the moment of launch until stocks run out."
+        },
+        {
+          "question": "WHAT DOES THE SODA ADMISSION INCLUDE?",
+          "answer": "By purchasing a SODA ticket you will have access to all areas of the party, including the dancefloor and the playroom with cloakroom included. We also provide free water, paper towels, hand sanitizer, condoms, sweets and fresh fruit throughout the evening."
+        },
+        {
+          "question": "WHAT PAYMENT METHODS ARE ACCEPTED?",
+          "answer": "Accepted payment methods are: PayPal, Cards (Visa, Mastercard, Amex). We recommend creating a customer account as this will make checking out much quicker."
+        },
+        {
+          "question": "CAN I PURCHASE A SODA ENTRY WITH MY EMAIL FOR ANOTHER PERSON?",
+          "answer": "Yes, but remember to specify the name, surname and email of the other participant at checkout, in the \"add a note\" box in the cart. The participant must have filled out the application and been accepted."
+        },
+        {
+          "question": "MY ENTRY CONFIRMATION EMAIL SAYS A GENDER THAT DOES NOT CORRESPOND TO MINE, WHAT DO I DO?",
+          "answer": "The site receives a lot of traffic during the SODA Party launch - we recommend When checking out, always check that the selected entrance is the correct one. The correct selection of the single entry type is the responsibility of the purchaser, unfortunately we cannot guarantee the change and entry to the party."
+        },
+        {
+          "question": "IF I HAVE A COUPLE ENTRY BUT THE OTHER PERSON CAN'T MAKE IT TO THE END, IS MY ENTRY STILL VALID?",
+          "answer": "Yes, you can enter individually even without the other person as long as the name of someone who filled out the form and was also accepted is specified on the ticket."
+        },
+        {
+          "question": "WHAT IF I CAN'T COME ANYMORE?",
+          "answer": "SODA entry is nominal, non-refundable and non-transferable to another person."
+        },
+        {
+          "question": "CAN I PURCHASE A COUPLE ENTRY EVEN IF WE ARE NOT A COUPLE?",
+          "answer": "Yes, we will not ask you for information about the relationship between you and the other person as this information is not relevant for accessing the party."
+        },
+        {
+          "question": "WHY DOES COUPLE ENTRY COST MORE?",
+          "answer": "The couple ticket includes 2 single tickets and a voucher that can be spent in store or online to purchase clothing and accessories."
+        },
+        {
+          "question": "WHY DO I NEED TO INDICATE MY GENDER WHEN PURCHASING?",
+          "answer": "We ask that you indicate your gender to create a fair environment among participants and keep the percentages of men, women and others balanced."
+        },
+        {
+          "question": "WHY WAS MY MONEY DEDUCTIBLE BUT I DIDN'T RECEIVE ANY CONFIRMATION EMAIL?",
+          "answer": "We ask you to be patient, there are a lot of you and it may take more than a few minutes to receive the confirmation email. Always check your Spam folder, it may happen that the email ended up there. If it does not arrive within 12 hours, write to info@soda-party.com indicating your name and surname, we will check but it could be that your purchase has not been successful."
+        },
+        {
+          "question": "WHY DIDN'T I RECEIVE ANY TICKETS BY EMAIL OR MAIL AFTER PURCHASING THE TICKET?",
+          "answer": "You will not receive a ticket either by email or by post, to enter you will simply need to present the order confirmation email and a photo ID."
+        },
+        {
+          "question": "IS THERE A WAITING LIST FOR THOSE WHO ARE UNABLE TO GET IN?",
+          "answer": "Yes, the waiting list is created based on the amount of requests received after the tickets have been sold. You can join the waiting list at the link we will post on @soda.clubbing stories and on our Telegram channel ( https://t.me/sodaparty ) a few days after the sale. The waiting list is valid only for that party date and not for subsequent ones."
+        }
+      ]
+    },
+    {
+      "categoryName": "The Pre-Party",
+      "qna": [
+        {
+          "question": "HOW DOES THE PRE-PARTY WORK?",
+          "answer": "It's a meeting point with music and beers open to everyone, both for those who have a SODA ticket and for those who just want to stop by and say hello and won't be attending the party. It takes place at WOVO Store in via Savona 45, Milan, on the afternoon of the party from 5pm to approximately 8.30pm. It's totally free, there's no need to register and no dress code required. You can come alone or with friends."
+        },
+        {
+          "question": "IS IT POSSIBLE TO PURCHASE THE OUTFIT AT THE PRE-PARTY?",
+          "answer": "Sure! During the pre-party our store is open and the WOVO team is available to let you try on the items you like (based on availability). To avoid being left without an outfit, we recommend that you: - Purchase online on our website a few days in advance with the in-store pick-up option so that at the pre-party you only have to collect your order; - Bring a backup plan in case we no longer have your size available or you don't find anything that fits you."
+        }
+      ]
+    },
+    {
+      "categoryName": "Entrance to the Venue",
+      "qna": [
+        {
+          "question": "WHAT DOCUMENTS DO I NEED TO BRING TO ENTER THE PARTY?",
+          "answer": "It is mandatory to have the following documents with you (obviously not expired): - identity card - health card - ASX card - SODA ticket purchase confirmation email."
+        },
+        {
+          "question": "HOW DOES THE ASX CARD WORK?",
+          "answer": "The ASX card is valid for 1 year from activation. It is mandatory for entry to the party and allows you to participate in all other ASX affiliated events. We recommend purchasing it online on our website and picking it up in store, but you can also do it directly at the venue on the evening of the party. If you need to renew it because it has expired, the procedure is the same as for the first purchase. You can check the expiration date of your ASX card at the WOVO Store or at any other ASX affiliated location. If you do not have an Italian tax code you can still purchase the card. If your behavior does not comply with the rules, you will be expelled from the party, your membership will also be cancelled and you will lose the right to participate in all ASX affiliated parties. If you have already purchased an ASX card (not expired) from another location, it is valid and you do not need to purchase it again from us."
+        }
+      ]
+    },
+    {
+      "categoryName": "The Party",
+      "qna": [
+        {
+          "question": "WHERE'S THE PARTY?",
+          "answer": "The SODA Party always takes place in Milan. The exact location is always indicated in the purchase confirmation email for admission."
+        },
+        {
+          "question": "WHAT KIND OF VENUE/ENVIRONMENT SHOULD I EXPECT?",
+          "answer": "It's a real night at the disco with live entertainment (Pole dancer, Shibari, Body painting, etc...) The music is mainly techno with live DJ sets: the space is divided between dancefloor and play room. There is a bar that provides alcoholic beverages, soft drinks and water. Toilets are available."
+        },
+        {
+          "question": "HOW LONG DOES THE PARTY LAST?",
+          "answer": "The party starts at 11pm and ends at 5:30am."
+        },
+        {
+          "question": "CAN I COME IN WHENEVER I WANT?",
+          "answer": "Access is permitted from 11pm to 1am, after which it will no longer be possible to enter."
+        },
+        {
+          "question": "CAN I KEEP MY CELL PHONE WITH ME?",
+          "answer": "Yes, at the entrance your cameras will be blocked with stickers and you can keep it with you for the whole evening. Avoid using your phone inside the premises unless absolutely necessary. In the playroom, however, the use of telephones is not permitted. If you are seen taking videos/photos inside the venue you will be immediately asked to delete the files from your device, you will be reported to the staff and accompanied to the exit."
+        },
+        {
+          "question": "IS THERE A SELECTION MADE AT THE ENTRANCE?",
+          "answer": "The main selection for SODA is through application/questionnaire. There is no screening at the entrance, but we reserve the right to not allow people in an obviously altered state or who have obviously not purchased an entrance. During the party we reserve the right to remove anyone who does not respect the guidelines of the outfit."
+        },
+        {
+          "question": "IS THERE A SMOKING AREA?",
+          "answer": "Yes, there is an area outside the premises for smokers. Smoking is prohibited inside the premises."
+        },
+        {
+          "question": "IS THERE A WARDROBE?",
+          "answer": "Yes, it is possible to use the cloakroom service which is included in the entrance fee.However, we recommend bringing as few things as possible and a backpack/bag to facilitate the queue and avoid long waits."
+        },
+        {
+          "question": "CAN YOU GET CHANGED INSIDE?",
+          "answer": "Yes, there is a common area inside the venue to change after entering. However, we recommend that you already wear your party clothes if possible, to make it easier for everyone to enter the venue."
+        },
+        {
+          "question": "IS IT ALLOWED TO BRING A BAG TO THE PARTY?",
+          "answer": "Yes, handbags, fanny packs, shoulder bags and anything small and not bulky are allowed. If you need to bring a backpack with a change of clothes you can leave it in the cloakroom of the venue."
+        },
+        {
+          "question": "CAN I BRING HANDCUFFS/WHIPS/ROPES/SEX TOYS?",
+          "answer": "Yes, only if they are accessories that complete an outfit (e.g. harness made of rope or handcuffs as a bracelet). However, they cannot be used with other people for hygiene and safety reasons."
+        },
+        {
+          "question": "WHAT HAPPENS IF I REALIZE THAT I AM OVERDRESSED COMPARED TO THE OTHER PARTICIPANTS?",
+          "answer": "You may remove an item of clothing from your clothing; we recommend that you do so before being asked to do so by staff."
+        },
+        {
+          "question": "IS IT ALLOWED TO COME BAREFOOT TO THE PARTY?",
+          "answer": "No, it is forbidden to come barefoot for safety reasons."
+        },
+        {
+          "question": "IS IT ALLOWED TO COME TO THE PARTY WEARING A MASK?",
+          "answer": "Yes, you can wear a mask but you will have to remove your mask for recognition at the entrance and in case you are asked to do so during the party for security reasons."
         }
       ]
     }
