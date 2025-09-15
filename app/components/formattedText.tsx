@@ -3,9 +3,10 @@ import { formatText } from '../logic/textFormatter';
 
 interface FormattedTextProps {
   text: string;
-  className?: string; // Optional className prop
+  className?: string;
+  linkClassName?: string;
 }
 
-export const FormattedText: React.FC<FormattedTextProps> = ({ text, className }) => {
-  return <p className={className}>{formatText(text)}</p>;
+export const FormattedText: React.FC<FormattedTextProps> = ({ text, className, linkClassName }) => {
+  return <p className={className}>{formatText(text, { linkClassName })}</p>;
 };

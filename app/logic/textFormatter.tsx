@@ -11,7 +11,7 @@ import React from 'react';
  * @param text - The input text to be formatted.
  * @returns An array of JSX elements, with links, bold text, and newlines appropriately formatted.
  */
-export const formatText = (input?: string): JSX.Element[] => {
+export const formatText = (input?: string, opts?: { linkClassName?: string }): JSX.Element[] => {
   const text = input ?? '';
   const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g; // Regular expression to identify markdown-style links
   const parts: JSX.Element[] = []; // Array to hold the resulting JSX elements
@@ -36,7 +36,7 @@ export const formatText = (input?: string): JSX.Element[] => {
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="title text-xl mx-2 hover:underline"
+        className={opts?.linkClassName ?? "title text-xl mx-2 hover:underline"}
         key={nextKey('link')}
       >
         {linkText}
