@@ -15,7 +15,7 @@ export default function ApplyPage() {
       <FormattedText
         text={content.pageContent}
         className="font-bold text-xl md:text-2xl mb-48 sm:mb-96"
-        linkClassName="underline uppercase font-bold text-xl md:text-2xl text-black dark:text-white hover:text-gray-500 dark:hover:text-gray-400 transition-colors"
+        blockLinks
       />
       <Footer />
     </div>

@@ -11,7 +11,10 @@ import React from 'react';
  * @param text - The input text to be formatted.
  * @returns An array of JSX elements, with links, bold text, and newlines appropriately formatted.
  */
-export const formatText = (input?: string, opts?: { linkClassName?: string }): JSX.Element[] => {
+export const formatText = (
+  input?: string,
+  opts?: { linkClassName?: string; renderLink?: (args: { text: string; url: string; key: string }) => JSX.Element }
+): JSX.Element[] => {
   const text = input ?? '';
   const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g; // Regular expression to identify markdown-style links
   const parts: JSX.Element[] = []; // Array to hold the resulting JSX elements
@@ -31,17 +34,22 @@ export const formatText = (input?: string, opts?: { linkClassName?: string }): J
     }
 
     // Add the link as an <a> element
-    parts.push(
-      <a
-        href={url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={opts?.linkClassName ?? "title text-xl mx-2 hover:underline"}
-        key={nextKey('link')}
-      >
-        {linkText}
-      </a>
-    );
+    const key = nextKey('link');
+    if (opts?.renderLink) {
+      parts.push(opts.renderLink({ text: linkText, url, key }));
+    } else {
+      parts.push(
+        <a
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={opts?.linkClassName ?? "title text-xl mx-2 hover:underline"}
+          key={key}
+        >
+          {linkText}
+        </a>
+      );
+    }
 
     lastIndex = linkRegex.lastIndex; // Update lastIndex to the end of the current match
   }

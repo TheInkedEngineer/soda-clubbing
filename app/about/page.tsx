@@ -18,7 +18,11 @@ export default function AboutPage() {
       <FormattedText text={introBlock} className={typography.title} />
 
       {content.showVideo && (
-        <iframe src={content.videoURL} className="aspect-video w-full my-8 max-w-3xl rounded" allowFullScreen />
+        <iframe
+          src={content.videoURL}
+          className="aspect-video w-full my-8 max-w-3xl rounded border-4 border-black dark:border-white"
+          allowFullScreen
+        />
       )}
 
       <FormattedText text={restContent} className="font-bold text-xl md:text-2xl my-12" />
