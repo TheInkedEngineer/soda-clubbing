@@ -128,3 +128,19 @@ b {
   animation: shake 0.2s;
 }
 
+/* Masonry layout for Reviews */
+.masonry {
+  column-count: 1;
+  column-gap: 1rem; /* ~gap-4 */
+}
+@media (min-width: 640px) { /* sm */
+  .masonry { column-count: 2; }
+}
+@media (min-width: 768px) { /* md */
+  .masonry { column-count: 3; }
+}
+.masonry-item {
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  margin-bottom: 1rem; /* ~mb-4 */
+}

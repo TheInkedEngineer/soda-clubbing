@@ -12,10 +12,16 @@ export default function ReviewsClient({ images }: { images: string[] }) {
   return (
     <div>
       <Title text={content.pageTitle} />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="masonry">
         {images.map((image, index) => (
-          <div key={index} className="flex items-center justify-center w-full h-full">
-            <Image src={image} alt={`Review Image ${index + 1}`} width={1024} height={768} className="w-full h-auto object-contain rounded-lg shadow-lg" />
+          <div key={index} className="masonry-item">
+            <Image
+              src={image}
+              alt={`Review Image ${index + 1}`}
+              width={1024}
+              height={768}
+              className="w-full h-auto object-cover rounded-lg shadow-lg border-4 border-black dark:border-white"
+            />
           </div>
         ))}
       </div>
