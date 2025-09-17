@@ -28,6 +28,11 @@ export const Header = () => {
     setMenuEntries(content.menuEntries);
   }, [language]);
 
+  // Close the mobile menu on route change
+  useEffect(() => {
+    setIsOpen(false);
+  }, [pathname]);
+
 
   const handleLanguageChange = (lang: string) => {
     setLanguage(lang);
