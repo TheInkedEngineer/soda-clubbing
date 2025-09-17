@@ -18,17 +18,13 @@ export default function SecurityAndRulesPage() {
 
   return (
     <div>
-      <Title text={content.pageTitle} />
+      <FormattedText text={content.pageTitle} variant='h1'/>
 
       <section className={spacing.section}>
-        <Title as="h2" text={content.security.pageTitle} />
+        <FormattedText text={content.security.pageTitle} variant='h2'/>
         <div className="flex flex-col md:flex-row items-start md:items-center gap-8">
           <div className="w-full md:w-1/2">
-            <FormattedText
-              text={content.security.pageContent}
-              className="font-bold text-xl md:text-2xl"
-              linkClassName="underline uppercase font-bold text-xl md:text-2xl text-white hover:text-gray-400 transition-colors"
-            />
+            <FormattedText text={content.security.pageContent} variant="text" />
           </div>
           <div className="w-full md:w-1/2">
             <Image src="/remote-images/sicurezza/team.png" alt="Team" width={1600} height={1067} className="w-full h-auto rounded" />
@@ -37,7 +33,7 @@ export default function SecurityAndRulesPage() {
       </section>
 
       <section className={spacing.section}>
-        <Title as="h2" text={content.rules.pageTitle} />
+        <FormattedText text={content.rules.pageTitle} variant='h2'/>
         {(content.rules.rules ?? []).map((rule: { title: string; body: string }, idx: number) => (
           <Accordion
             key={idx}
@@ -53,4 +49,3 @@ export default function SecurityAndRulesPage() {
     </div>
   );
 }
-

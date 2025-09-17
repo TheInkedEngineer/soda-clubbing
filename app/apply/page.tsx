@@ -1,5 +1,4 @@
 "use client";
-import { Title } from '@/components/title';
 import { Footer } from '../components/Footer';
 import { FormattedText } from '@/components/formattedText';
 import { useLanguage } from '../context/LanguageContext';
@@ -11,12 +10,8 @@ export default function ApplyPage() {
   const content = language === 'en' ? (contentEn as any) : (contentIt as any);
   return (
     <div>
-      <Title text={content.pageTitle} />
-      <FormattedText
-        text={content.pageContent}
-        className="font-bold text-xl md:text-2xl mb-48 sm:mb-96"
-        blockLinks
-      />
+      <FormattedText text={content.pageTitle} variant="h1"/>
+      <FormattedText text={content.pageContent} blockLinks variant="text" /> 
       <Footer />
     </div>
   );

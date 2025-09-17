@@ -7,6 +7,7 @@ import contentIt from '@/translations/faq-page/it.json';
 import contentEn from '@/translations/faq-page/en.json';
 import { Accordion } from '@/components/accordion';
 import { spacing } from '@/lib/design-system';
+import Button from '@/components/Button';
 
 export default function FAQPage() {
   const { language } = useLanguage();
@@ -32,18 +33,15 @@ export default function FAQPage() {
       {/* Filters row */}
       <div className="flex flex-wrap gap-3 my-6">
         {categories.map((c, idx) => (
-          <button
+          <Button
             key={`${c.name}-${idx}`}
-            type="button"
+            variant="ghost"
+            size="sm"
+            selected={isSelected(c.name)}
             onClick={() => toggleCategory(c.name)}
-            className={`title text-base px-4 py-2 border-4 border-black dark:border-white rounded-none transition-colors duration-150 ${
-              isSelected(c.name)
-                ? 'bg-black !text-white dark:bg-white dark:!text-black'
-                : 'bg-transparent hover:bg-black hover:!text-white dark:hover:bg-white dark:hover:!text-black'
-            }`}
           >
             {c.name}
-          </button>
+          </Button>
         ))}
       </div>
 

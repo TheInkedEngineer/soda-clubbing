@@ -1,5 +1,7 @@
 import React from 'react';
 import { FormattedText } from './formattedText';
+import { Title } from './title';
+import Divider from './Divider';
 
 interface AccordionProps {
   title: string;
@@ -20,14 +22,14 @@ export const Accordion: React.FC<AccordionProps> = ({
         onClick={() => toggleAccordion(title)}
         className="flex justify-between items-center"
       >
-        <h3 className="text-xl subtitle">{title}</h3>
-        <h3 className="text-4xl subtitle">{activeId === title ? '-' : '+'}</h3>
+        <FormattedText text={title} variant='h3'/>
+        <span className="text-4xl subtitle">{activeId === title ? '-' : '+'}</span>
       </div>
       {activeId === title && (
         <FormattedText text={content} className="mt-2" />
       )}
       {/* Horizontal line */}
-      <div className="w-full h-1 bg-black dark:bg-white mt-2"></div>
+      <Divider className="mt-2" />
     </div>
   );
 };

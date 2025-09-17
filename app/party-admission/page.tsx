@@ -11,7 +11,7 @@ export default function PartyAdmissionPage() {
   const content = language === 'en' ? (contentEn as any) : (contentIt as any);
   return (
     <div>
-      <Title text={content.pageTitle} />
+      <FormattedText text={content.pageTitle} variant='h1'/>
       <p className="mt-4">
         <FormattedText text={(content as any).passwordPageTitle} />
       </p>

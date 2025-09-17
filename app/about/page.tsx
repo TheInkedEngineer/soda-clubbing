@@ -15,7 +15,7 @@ export default function AboutPage() {
   return (
     <div>
       {/* Hero intro text extracted from the first paragraph */}
-      <FormattedText text={introBlock} className={typography.title} />
+      <FormattedText text={introBlock} variant='h1'/>
 
       {content.showVideo && (
         <iframe
@@ -25,7 +25,7 @@ export default function AboutPage() {
         />
       )}
 
-      <FormattedText text={restContent} className="font-bold text-xl md:text-2xl my-12" />
+      <FormattedText text={restContent} variant="text" className="my-12" />
       <Footer />
     </div>
   );
